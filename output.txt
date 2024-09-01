@@ -1,0 +1,474 @@
+[
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "NewStringUTF",
+            "args": [
+                "JNIEnv*",
+                "char*"
+            ],
+            "ret": "jstring"
+        },
+        "thread_id": 3467,
+        "timestamp": 3213,
+        "backtrace": [
+            {
+                "address": "0xb86640df",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb86640df",
+                    "name": "Java_com_ximalaya_ting_android_loginservice_LoginEncryptUtil_PDuxkguhSq+0x1a",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            },
+            {
+                "value": "0xb866d870",
+                "data": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCVhaR3Or7suUlwHUl2Ly36uVmboZ3+HhovogDjLgRE9CbaUokS2eqGaVFfbxAUxFThNDuXq/fBD+SdUgppmcZrIw4HMMP4AtE2qJJQH/KxPWmbXH7Lv+9CisNtPYOlvWJ/GHRqf9x3TBKjjeJ2CjuVxlPBDX63+Ecil2JR9klVawIDAQAB"
+            }
+        ],
+        "ret": {
+            "value": "0x75",
+            "metadata": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCVhaR3Or7suUlwHUl2Ly36uVmboZ3+HhovogDjLgRE9CbaUokS2eqGaVFfbxAUxFThNDuXq/fBD+SdUgppmcZrIw4HMMP4AtE2qJJQH/KxPWmbXH7Lv+9CisNtPYOlvWJ/GHRqf9x3TBKjjeJ2CjuVxlPBDX63+Ecil2JR9klVawIDAQAB"
+        },
+        "java_params": []
+    },
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "NewStringUTF",
+            "args": [
+                "JNIEnv*",
+                "char*"
+            ],
+            "ret": "jstring"
+        },
+        "thread_id": 3467,
+        "timestamp": 3690,
+        "backtrace": [
+            {
+                "address": "0xb8660b93",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb8660b93",
+                    "name": "0xb93",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            },
+            {
+                "value": "0xb866d055",
+                "data": "RSA"
+            }
+        ],
+        "ret": {
+            "value": "0x89",
+            "metadata": "RSA"
+        },
+        "java_params": []
+    },
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "FindClass",
+            "args": [
+                "JNIEnv*",
+                "char*"
+            ],
+            "ret": "jclass"
+        },
+        "thread_id": 3467,
+        "timestamp": 3712,
+        "backtrace": [
+            {
+                "address": "0xb8660ba5",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb8660ba5",
+                    "name": "0xba5",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            },
+            {
+                "value": "0xb866d060",
+                "data": "java/security/KeyFactory"
+            }
+        ],
+        "ret": {
+            "value": "0x91",
+            "metadata": "java/security/KeyFactory"
+        },
+        "java_params": []
+    },
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "GetStaticMethodID",
+            "args": [
+                "JNIEnv*",
+                "jclass",
+                "char*",
+                "char*"
+            ],
+            "ret": "jmethodID"
+        },
+        "thread_id": 3467,
+        "timestamp": 3730,
+        "backtrace": [
+            {
+                "address": "0xb8660bc1",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb8660bc1",
+                    "name": "0xbc1",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            },
+            {
+                "value": "0x91",
+                "metadata": "java/security/KeyFactory"
+            },
+            {
+                "value": "0xb866d079",
+                "data": "getInstance"
+            },
+            {
+                "value": "0xb866d090",
+                "data": "(Ljava/lang/String;)Ljava/security/KeyFactory;"
+            }
+        ],
+        "ret": {
+            "value": "0x6f6f4a98",
+            "metadata": "getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;"
+        },
+        "java_params": []
+    },
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "ExceptionCheck",
+            "args": [
+                "JNIEnv*"
+            ],
+            "ret": "jboolean"
+        },
+        "thread_id": 3467,
+        "timestamp": 3758,
+        "backtrace": [
+            {
+                "address": "0xb8660be1",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb8660be1",
+                    "name": "0xbe1",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            }
+        ],
+        "ret": {
+            "value": 0
+        },
+        "java_params": []
+    },
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "FindClass",
+            "args": [
+                "JNIEnv*",
+                "char*"
+            ],
+            "ret": "jclass"
+        },
+        "thread_id": 3467,
+        "timestamp": 3784,
+        "backtrace": [
+            {
+                "address": "0xb8661213",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb8661213",
+                    "name": "0x1213",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            },
+            {
+                "value": "0xb866d0c0",
+                "data": "android/util/Base64"
+            }
+        ],
+        "ret": {
+            "value": "0xa9",
+            "metadata": "android/util/Base64"
+        },
+        "java_params": []
+    },
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "GetStaticMethodID",
+            "args": [
+                "JNIEnv*",
+                "jclass",
+                "char*",
+                "char*"
+            ],
+            "ret": "jmethodID"
+        },
+        "thread_id": 3467,
+        "timestamp": 3811,
+        "backtrace": [
+            {
+                "address": "0xb866122f",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb866122f",
+                    "name": "0x122f",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            },
+            {
+                "value": "0xa9",
+                "metadata": "android/util/Base64"
+            },
+            {
+                "value": "0xb866d0d4",
+                "data": "decode"
+            },
+            {
+                "value": "0xb866d0e0",
+                "data": "(Ljava/lang/String;I)[B"
+            }
+        ],
+        "ret": {
+            "value": "0x6fd87a88",
+            "metadata": "decode(Ljava/lang/String;I)[B"
+        },
+        "java_params": []
+    },
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "FindClass",
+            "args": [
+                "JNIEnv*",
+                "char*"
+            ],
+            "ret": "jclass"
+        },
+        "thread_id": 3467,
+        "timestamp": 3838,
+        "backtrace": [
+            {
+                "address": "0xb8661257",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb8661257",
+                    "name": "0x1257",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            },
+            {
+                "value": "0xb866d100",
+                "data": "java/security/spec/X509EncodedKeySpec"
+            }
+        ],
+        "ret": {
+            "value": "0xb1",
+            "metadata": "java/security/spec/X509EncodedKeySpec"
+        },
+        "java_params": []
+    },
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "GetMethodID",
+            "args": [
+                "JNIEnv*",
+                "jclass",
+                "char*",
+                "char*"
+            ],
+            "ret": "jmethodID"
+        },
+        "thread_id": 3467,
+        "timestamp": 3863,
+        "backtrace": [
+            {
+                "address": "0xb8661273",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb8661273",
+                    "name": "0x1273",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            },
+            {
+                "value": "0xb1",
+                "metadata": "java/security/spec/X509EncodedKeySpec"
+            },
+            {
+                "value": "0xb866d126",
+                "data": "<init>"
+            },
+            {
+                "value": "0xb866d12d",
+                "data": "([B)V"
+            }
+        ],
+        "ret": {
+            "value": "0x6f6f51a4",
+            "metadata": "<init>([B)V"
+        },
+        "java_params": []
+    },
+    {
+        "struct": "JNIEnv",
+        "method": {
+            "name": "DeleteLocalRef",
+            "args": [
+                "JNIEnv*",
+                "jobject"
+            ],
+            "ret": "void"
+        },
+        "thread_id": 3467,
+        "timestamp": 3890,
+        "backtrace": [
+            {
+                "address": "0xb8661299",
+                "module": {
+                    "name": "liblogin_encrypt.so",
+                    "base": "0xb8660000",
+                    "size": 57344,
+                    "path": "/data/app/com.ximalaya.ting.android-ZLVRqlvHi3p7lWbnc9zueg==/lib/arm/liblogin_encrypt.so"
+                },
+                "symbol": {
+                    "address": "0xb8661299",
+                    "name": "0x1299",
+                    "moduleName": "liblogin_encrypt.so",
+                    "fileName": "",
+                    "lineNumber": 0
+                }
+            }
+        ],
+        "args": [
+            {
+                "value": "0xf3298140"
+            },
+            {
+                "value": "0xb1"
+            }
+        ],
+        "ret": {
+            "value": null
+        },
+        "java_params": []
+    }
+]
